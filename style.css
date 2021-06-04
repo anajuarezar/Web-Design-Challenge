@@ -8,8 +8,65 @@ h1 {
     margin: 30px;
     margin-bottom: 30px;
     color: #16A085 ;
-    font-family: 'Times New Roman', serif;
-    font-size: 28px;
+    font-family: Georgia, serif;
+    font-size: 35px;
     border-bottom: 1px solid #ABB2B9;
   }
   
+
+  h2 {
+    padding: 30px 0;
+    margin: 30px;
+    margin-bottom: 20px;
+    color: #16A085 ;
+    font-family: Georgia, serif;
+    font-size: 25px;
+    border-bottom: 1px solid #ABB2B9;
+  }
+
+  #Summary {
+      background-color: #FFFFFF;
+      margin: 30px;
+      padding-bottom: 30px;
+      padding-left: 30px;
+      padding-right: 30px
+ }
+  #lat-graph {
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    margin-right: 20px;
+    float: left;
+  }
+
+  #temp-graph {
+      position: absolute;
+      width: 150px;
+      height: 150px;
+      top: 200px;
+      right: 340px;   
+  }
+
+  #hum-graph {
+      position: absolute;
+      width: 150px;
+      height: 150px;
+      top: 370px;
+      right: 340px;      
+  }
+
+  #cloud-graph {
+      position: absolute;
+      width: 150px;
+      height: 150px;
+      top: 200px;
+      right: 170px;
+  }
+
+  #wind-graph {
+      position: absolute;
+      width: 150px;
+      height: 150px;
+      top: 370px;
+      right: 170px;
+  }
