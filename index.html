@@ -21,12 +21,12 @@
                 <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                     Plots
                 </a>
-                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                    <li><a class="dropdown-item" href="#">Max Temperature</a></li>
-                    <li><a class="dropdown-item" href="#">Humidity</a></li>
-                    <li><a class="dropdown-item" href="#">Cloudiness</a></li>
-                    <li><a class="dropdown-item" href="#">Wind Speed</a></li>
-                </ul>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="#">Max Temperature</a>
+                    <a class="dropdown-item" href="#">Humidity</a>
+                    <a class="dropdown-item" href="#">Cloudiness</a>
+                    <a class="dropdown-item" href="#">Wind Speed</a>
+                </div>
             </li>
               <li class="nav-item">
                   <a class="nav-link" href="#">Comparisons</a>
@@ -42,13 +42,29 @@
         <div class="row">
             <div class="col-md-8 col-sm-12">
                 <section id="Summary">
-                    <h1>Summary: Latitude vs. X</h1>
+                    <strong><h1>Summary: Latitude vs. X</h1></strong>
+                    <section>
                     <img id="lat-graph" src="C:\Users\Cookie\Desktop\Web-Design-Challenge\Resources\Fig1.png" alt="">
+                    </section>
                     <p>
                      The purpose of this project was to analyze how waether changes as you get closer to the equator. To accomplish this analysis, we first oulled data from the OpenWeatherMap API to assemble a datase on over 500 cities.</p>
                      <br>
                      <p>After assembling the dataser, we used Matplotlib to plot various aspects of the weather vs latitude. Factors we looked at included: temperature, cloudiness, wind speed and humidity. This site provided the source data and visualizations created as part of the analysis, as well as explanations and descriptions of any trends and correlations witnessed.
                      </p>
+                </section>
+            </div>
+            <div class="col-md-4 col-sm-12">
+                <section id = "vis-lat">
+                    <h2>Visualizations</h2>
+                    <img id="lat-graph" src="C:\Users\Cookie\Desktop\Web-Design-Challenge\Resources\Fig1.png" alt="">
+                    <img id="lat-graph" src="C:\Users\Cookie\Desktop\Web-Design-Challenge\Resources\Fig1.png" alt="">
+                    <img id="lat-graph" src="C:\Users\Cookie\Desktop\Web-Design-Challenge\Resources\Fig1.png" alt="">
+                    <img id="lat-graph" src="C:\Users\Cookie\Desktop\Web-Design-Challenge\Resources\Fig1.png" alt="">
+                </section>
+            </div>
+        </div>
+    </div>
+        
 
                     
       
