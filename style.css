@@ -82,3 +82,27 @@ h1 {
       right: 170px;
   }
 
+/* Temp format */
+
+  #Vis {
+    background-color: #FFFFFF;
+    font-family: Arial, sans-serif;
+    font-size: 17px;
+    margin: 30px;
+    padding-bottom: 30px;
+    padding-left: 30px;
+    padding-right: 30px
+}
+
+
+  #vis_graph {
+    width: 600px;
+    height: 400px;
+    margin-right: 20px;
+  }
+
+
+
+
+
+
