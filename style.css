@@ -138,8 +138,26 @@ h1 {
 
 }
 
+#data {
+  background-color: #FFFFFF;
+  margin-left: 90px;
+  margin-right: 90px;
+}
 
+table {
+  background-color: #FFFFFF;
+  font-family: arial, sans-serif;
+  font-size: 15px;
+  border-collapse: collapse;
+  margin-left: 20px;
+}
 
+td, th {
+  text-align: left;
+  padding: 8px;
+}
 
-
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
 
