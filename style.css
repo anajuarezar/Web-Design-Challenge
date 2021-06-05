@@ -34,10 +34,20 @@ h1 {
     font-size: 25px;
   }
 
-  nav {
-      background-color: #FFFFFF;
-
+  .nav {
+    background-color: white;
+    margin-left: auto;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
   }
+
+  .nav li a {
+    color: black;
+    font-size: 13px;
+    font-family: Arial, sans-serif;
+  }
+
+
   #Summary {
       background-color: #FFFFFF;
       font-family: Arial, sans-serif;
@@ -140,15 +150,14 @@ h1 {
 
 #data {
   background-color: #FFFFFF;
-  margin-left: 90px;
-  margin-right: 90px;
+  margin-left: 130px;
+  margin-right: 130px;
 }
 
 table {
   background-color: #FFFFFF;
   font-family: arial, sans-serif;
   font-size: 15px;
-  border-collapse: collapse;
   margin-left: 20px;
 }
 
