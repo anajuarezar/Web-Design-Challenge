@@ -24,6 +24,15 @@ h1 {
     border-bottom: 1px solid #ABB2B9;
   }
 
+  h3 {
+    padding: 30px 0;
+    margin: 30px;
+    margin-bottom: 30px;
+    color: #16A085 ;
+    font-family: Georgia, serif;
+    font-size: 25px;
+  }
+
   nav {
       background-color: #FFFFFF;
 
@@ -100,6 +109,33 @@ h1 {
     height: 400px;
     margin-right: 20px;
   }
+
+/* Comparisons format */
+
+
+#comp_temp_graph{
+    width: 500px;
+    height: 300px;
+
+}
+
+#comp_hum_graph{
+    width: 500px;
+    height: 300px;
+
+}
+
+#comp_cloud_graph{
+    width: 500px;
+    height: 300px;
+
+}
+
+#comp_wind_graph{
+    width: 500px;
+    height: 300px;
+
+}
 
 
 
