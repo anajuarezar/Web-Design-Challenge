@@ -37,8 +37,6 @@ h1 {
   .nav {
     background-color: white;
     margin-left: auto;
-    margin-bottom: 0px;
-    padding-bottom: 0px;
   }
 
   .nav li a {
@@ -47,6 +45,10 @@ h1 {
     font-family: Arial, sans-serif;
   }
 
+  #nav-select {
+    visibility: hidden;
+    background-color: #16A085
+  }
 
   #Summary {
       background-color: #FFFFFF;
@@ -87,19 +89,19 @@ h1 {
   }
 
   #cloud-graph {
-      position: absolute;
+    position: fixed;
       width: 150px;
       height: 150px;
-      top: 197px;
-      right: 170px;
+      top: 220px;
+      right: 160px;
   }
 
   #wind-graph {
-      position: absolute;
+    position: fixed;
       width: 150px;
       height: 150px;
-      top: 347px;
-      right: 170px;
+      top: 370px;
+      right: 160px;
   }
 
 /* Temp format */
@@ -170,3 +172,65 @@ tr:nth-child(even) {
   background-color: #dddddd;
 }
 
+@media (max-width: 900px) {
+
+  .nav {
+    visibility: hidden;
+  }
+
+  #nav-select {
+    visibility: visible;
+  }
+
+  #container-fluid {
+    background-color: #16A085
+  }
+
+  h1 {
+    font-size: 15px;
+  }
+
+  h2{
+    font-size: 10px;
+  }
+
+  summary {
+    font-size: 8px;
+  }
+  
+  #vis-lat {
+    background-color: #FFFFFF;
+    display: inline-block;
+    margin: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px
+  }
+
+  #temp-graph {
+    width: 100px;
+    height: 100px;
+  }
+
+#hum-graph {
+    width: 100px;
+    height: 100px;
+     
+}
+
+#cloud-graph {
+    width: 100px;
+    height: 100px;
+    top: 220px;
+    right: 160px;
+}
+
+#wind-graph {
+  position: fixed;
+    width: 120px;
+    height: 120px;
+    top: 20px;
+    left: 20px;
+}
+
+}
