@@ -170,6 +170,10 @@ tr:nth-child(even) {
     background: #16A085;
   }
 
+  body {
+    background-color: white;
+  }
+
  .nav li {
    visibility: hidden;
  }
